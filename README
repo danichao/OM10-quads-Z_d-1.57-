@@ -1,0 +1,30 @@
+public_2033.fits is the catalog of the quads from OM10 used in Chao et al. 2019. public_2033.fits includes the point properties of the quasar in the source plane (from OM10), singular isothermal ellipsoid (SIE) mass profiles of the lens galaxy from OM10, and Sérsic light profiles of the lens galaxy selected by Chao et al. 2019. For the stochastic quasar source light curves and the random host galaxy Sérsic light profiles, which are not included in public_2033.fits, one could generate them following Chao et al. 2019.
+
+LENS_ID: Lens ID from OM10 catalog
+NUM_IMG: Number of lensed images
+SOURCE_X: Source x [arcsec] 
+SOURCE_Y: Source y [arcsec]
+SOURCE_Z: Source redshift
+SOURCE_IBAND: Original source i-band magnitude
+LENS_Z: Lens redshift
+LENS_IBAND: Lens galaxy i-band magnitude 
+LENS_LIGHT_X: Lens galaxy Sérsic light profile centroid x [arcsec]
+LENS_LIGHT_Y: Lens galaxy Sérsic light profile centroid y [arcsec]
+LENS_LIGHT_ELLIP: Lens galaxy Sérsic light profile ellipticity
+LENS_EFFECT_RADI: Lens galaxy effective radius [arcsec]
+LENS_EFFECT_IND: Lens galaxy Sérsic index
+LENS_VEL_DIS: Lens galaxy velocity dispersion [km/s]
+LENS_MASS_ELLIP: Lens galaxy SIE mass profile ellipticity
+LENS_PA: Lens galaxy position angle [deg]
+SHEAR: External shear
+SHEAR_PA: External shear position angle [deg]
+IMG_X: Lensed images x [arcsec]
+IMG_Y: Lensed images y [arcsec]
+MAG: Lensed images magnification
+TIME_DELAY: Lensed images time delay [days]
+IMG_SEP: Lensed images separation [arcsec] (the largest separation among the pairs)
+THIRD_BRIGHT: i-band magnitude of lensed image (third brightest image for quad and fainter image for double)
+
+
+
+
